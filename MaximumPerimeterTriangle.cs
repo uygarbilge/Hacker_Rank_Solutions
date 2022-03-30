@@ -17,7 +17,7 @@ namespace ConsoleApp1
             //Array.Sort(array);
             //Array.Reverse(array);
 
-            int maxPerimeter = -1;
+            long maxPerimeter = -1;
             int longestSide = 0;
 
 
@@ -29,7 +29,7 @@ namespace ConsoleApp1
                             array[i] + array[k] > array[j] &&
                             array[j] + array[k] > array[i])
                         {
-                            int perim = array[i] + array[j] + array[k];
+                            long perim = (long)array[i] + array[j] + array[k];
                             if(perim > maxPerimeter)
                             {
                                 result.Clear();
@@ -57,14 +57,18 @@ namespace ConsoleApp1
                                 
                         }
 
-                    } 
+                    }
+            result.Sort();
+
+            if (result.Count == 0)
+                result.Add(-1);
 
             return result;
         }
 
         public void Run()
         {
-            List<int> sticks = new List<int>() {1 , 2, 3, 4, 5, 10 };
+            List<int> sticks = new List<int>() { 1000000000, 1000000000, 1000000000, 1000000000, 1000000000, 1000000000, 1000000000 };
             maximumPerimeterTriangle(sticks);
         }
     }

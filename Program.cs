@@ -109,5 +109,25 @@ MigratoryBirds mb = new MigratoryBirds();
 mb.Run();
 */
 
+/*
 MaximumPerimeterTriangle triangle = new MaximumPerimeterTriangle();
 triangle.Run();
+*/
+
+/*
+PickingNumbers pn = new PickingNumbers();
+pn.Run();
+*/
+
+/*
+LeftRotation lr = new LeftRotation();
+lr.Run();
+*/
+
+/*
+NumberLineJumps nlj = new NumberLineJumps();
+nlj.Run();
+*/
+
+SeperateTheNumbers stn = new SeperateTheNumbers();
+stn.Run();
