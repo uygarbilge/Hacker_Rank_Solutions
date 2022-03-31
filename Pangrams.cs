@@ -12,9 +12,7 @@ namespace ConsoleApp1
 
 
         public static string pangrams(string s)
-        {
-             
-
+        { 
             char A = 'A';
             char Z = 'Z';
 

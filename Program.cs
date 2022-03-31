@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ConsoleApp1;
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 /*
 PlusMinus pm = new PlusMinus();
 pm.Run();
@@ -129,5 +129,30 @@ NumberLineJumps nlj = new NumberLineJumps();
 nlj.Run();
 */
 
+/*
 SeperateTheNumbers stn = new SeperateTheNumbers();
 stn.Run();
+*/
+
+/*
+ClosestNumbers cm = new ClosestNumbers();   
+cm.Run();
+*/
+
+/*
+TowerBreakers tb = new TowerBreakers();
+tb.Run();
+*/
+
+/*
+MinimumAbsoluteDifference mad = new MinimumAbsoluteDifference();
+mad.Run();
+*/
+
+/*
+CaesarCipher caesarCipher = new CaesarCipher();
+caesarCipher.Run();
+*/
+
+StrongPassword sp = new StrongPassword();
+sp.Run();
