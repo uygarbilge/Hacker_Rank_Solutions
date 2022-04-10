@@ -38,11 +38,8 @@ namespace ConsoleApp1
 
         public void Run()
         {
-             
-            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
-
+            
             int n = 2;
-
             int m = 6;
 
             int result = towerBreakers(n, m);

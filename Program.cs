@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using ConsoleApp1;
+using HackerrankProject;
 
 //Console.WriteLine("Hello, World!");
 /*
@@ -154,5 +155,82 @@ CaesarCipher caesarCipher = new CaesarCipher();
 caesarCipher.Run();
 */
 
+/*
 StrongPassword sp = new StrongPassword();
 sp.Run();
+*/
+
+/*
+MaxMin maxMin = new MaxMin();   
+maxMin.Run();
+*/
+
+/*
+MissingNumbers mn = new MissingNumbers();
+mn.Run();
+*/
+
+/*
+TheFullCountingSort countingSort = new TheFullCountingSort();
+countingSort.Run();
+*/
+
+/*
+GridChallenge gridChallenge = new GridChallenge();  
+gridChallenge.Run();
+*/
+
+/*
+SansaAndXor sansaAndXor = new SansaAndXor();
+sansaAndXor.Run();
+*/
+
+/*
+
+var a = Common.Factor(450); 
+Console.WriteLine(a);
+int [] arr =  new int [] { 4, 3, 5, 85, 1 };
+
+var b = Common.CountingSort(arr);
+
+Console.WriteLine(b);
+
+*/
+
+/*
+DynamicArray da = new DynamicArray();
+da.Run();
+*/
+
+/*
+SherlockAndArray saa = new SherlockAndArray();
+saa.Run();
+*/
+
+/*
+GamingArray1 gm1 = new GamingArray1();
+gm1.Run();
+*/
+
+/*
+FormingAMagicSquare formingAMagicSquare = new FormingAMagicSquare();
+formingAMagicSquare.Run();
+*/
+
+/*
+RecursiveDigitSum recursiveDigitSum = new RecursiveDigitSum();
+recursiveDigitSum.Run();
+*/
+
+/*
+SumVsXor sumVsXor = new SumVsXor(); 
+sumVsXor.Run();
+*/
+
+/*
+CounterGame counterGame = new CounterGame();
+counterGame.Run();
+*/
+
+SherlockAndValidString sherlock = new SherlockAndValidString();
+sherlock.Run();
