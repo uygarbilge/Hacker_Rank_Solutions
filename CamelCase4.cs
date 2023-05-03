@@ -8,10 +8,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
     public  class CamelCase4
-    {
-
-        
-
+    { 
         public void Run()
         {
             

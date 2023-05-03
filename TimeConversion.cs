@@ -11,21 +11,16 @@ namespace ConsoleApp1
     {
 
         public static string timeConversion(string s)
-        {
-              
+        { 
             DateTime d = DateTime.Parse(s); 
-            string result = d.ToString("HH:mm:ss"); 
-
+            string result = d.ToString("HH:mm:ss");  
             return result;
         }
 
         public void Run()
-        {
-             
-            string s = "07:05:45PM";
-
-            string result = timeConversion(s); 
-         
+        { 
+            string s = "07:05:45PM"; 
+            string result = timeConversion(s);  
         }
 
     }

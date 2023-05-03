@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
     public class LeftRotation
-    {
-
+    { 
         public static List<int> rotateLeft(int d, List<int> arr)
         {
             List<int> result = new List<int>();
@@ -21,9 +20,7 @@ namespace ConsoleApp1
 
 
             for(int i = 0; i < array.Length; i++)
-            {
-              
-
+            { 
                 int newIndex = i - d;
 
                 while ( newIndex  < 0)
@@ -33,21 +30,15 @@ namespace ConsoleApp1
             }
 
             result = newArray.ToList();
-
-
+             
             return result;
         }
-
-
+         
         public void Run()
-        {
-
-
+        { 
             int d = 32;
             List<int> arr = new List<int>() { 1, 2, 4, 5 };
-            rotateLeft(d, arr);
-
-
+            rotateLeft(d, arr); 
         }
 
 

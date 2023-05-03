@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
     public  class mini_max_sum
-    {
-
+    { 
         void miniMaxSum(List<int> arr)
         {
             long maxSum = 0L;
@@ -21,20 +20,12 @@ namespace ConsoleApp1
             minSum = (long)array[0] + (long)array[1] + (long)array[2] + (long)array[3];
             maxSum = (long)array[1] + (long)array[2] + (long)array[3] + (long)array[4];
 
-            Console.WriteLine(minSum + " " + maxSum);
-
-
-
-
+            Console.WriteLine(minSum + " " + maxSum); 
         }
 
         public void Run()
-        {
-
-
-            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
-
-          
+        { 
+            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList(); 
             miniMaxSum(arr); ;
         }
     }

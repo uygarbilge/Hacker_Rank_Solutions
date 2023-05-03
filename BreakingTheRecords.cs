@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public  class BreakingTheRecords
-
+    public  class BreakingTheRecords 
     {
         public static List<int> breakingRecords(List<int> scores)
         {
@@ -34,19 +33,14 @@ namespace ConsoleApp1
                         min = scores[i];
                         minCount++;
                     }
-                      
-
                     else if (scores[i] > max)
                     {
                         max = scores[i];
                         maxCount++;
-                    }
-                        
+                    }    
                 }
             }
-
-
-  
+             
             records.Add(maxCount);
             records.Add(minCount);
 
@@ -56,11 +50,8 @@ namespace ConsoleApp1
 
         public void Run()
         {
-             List<int> scores = new List<int>() { 12, 24, 10, 24};
-             
-
-            breakingRecords(scores);
-          
+            List<int> scores = new List<int>() { 12, 24, 10, 24}; 
+            breakingRecords(scores); 
         }
     }
 }

@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
     public class MergeTwoSortedLinkedLists
-    {
-
+    { 
        public  static SinglyLinkedListNode mergeLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2)
         {
          
@@ -17,8 +16,7 @@ namespace ConsoleApp1
 
             SinglyLinkedListNode iteratorNode1 = head1;
             SinglyLinkedListNode iteratorNode2 = head2;
-
-
+             
             while (true)
             {
                 if (iteratorNode1 != null && iteratorNode2 != null)

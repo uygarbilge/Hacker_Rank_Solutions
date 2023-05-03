@@ -20,6 +20,7 @@ namespace ConsoleApp1
 
             string searchString = string.Empty;
 
+            return 0;
 
         }
 
